@@ -25,6 +25,11 @@
         <children xsi:type="menu:HandledToolItem" xmi:id="_6wlLl8gZEeSyMNYR5xypkQ" elementId="de.aroni.sandbox.rcp.e4.handleditem.trimbar.top.open" iconURI="platform:/plugin/de.aroni.sandbox.rcp.e4/icons/sample.png" command="_6wlLgMgZEeSyMNYR5xypkQ"/>
         <children xsi:type="menu:HandledToolItem" xmi:id="_6wlLmMgZEeSyMNYR5xypkQ" elementId="de.aroni.sandbox.rcp.e4.handleditem.trimbar.top.save" iconURI="platform:/plugin/de.aroni.sandbox.rcp.e4/icons/save_edit.png" command="_6wlLg8gZEeSyMNYR5xypkQ"/>
       </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_dcKdwL2_EeWPCbrjNcrijg" elementId="de.aroni.sandbox.rcp.e4.toolbar.0">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_jtXWEL2_EeWPCbrjNcrijg" elementId="de.aroni.sandbox.rcp.e4.handledtoolitem.about" label="About" iconURI="platform:/plugin/de.aroni.sandbox.rcp.e4/icons/sample.png" command="_6wlLhsgZEeSyMNYR5xypkQ"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_zM0tsL2_EeWPCbrjNcrijg" elementId="de.aroni.sandbox.rcp.e4.toolbarseparator.0"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_s5Qd4L2_EeWPCbrjNcrijg" elementId="de.aroni.sandbox.rcp.e4.handledtoolitem.quit" label="Quit" iconURI="platform:/plugin/de.aroni.sandbox.rcp.e4/icons/sample.png" command="_6wlLfMgZEeSyMNYR5xypkQ"/>
+      </children>
     </trimBars>
   </children>
   <handlers xmi:id="_6wlLfcgZEeSyMNYR5xypkQ" elementId="de.aroni.sandbox.rcp.e4.handler.quitCommand" contributionURI="bundleclass://de.aroni.sandbox.rcp.e4/de.aroni.sandbox.rcp.e4.handlers.QuitHandler" command="_6wlLfMgZEeSyMNYR5xypkQ"/>
